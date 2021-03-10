@@ -1,0 +1,19 @@
+{
+  "description": "A Neos CMS package that keeps the index of nodetypes the same in all dimensions.",
+  "type": "neos-package",
+  "name": "neosrulez/dimensionsindexkeeper",
+  "license": "GPL-3.0+",
+  "require": {
+    "neos/neos": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NeosRulez\\DimensionsIndexKeeper\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "NeosRulez.DimensionsIndexKeeper"
+    }
+  }
+}
