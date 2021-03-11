@@ -44,7 +44,9 @@ class SetIndex {
                     ]
                 );
                 $node = $context->getNodeByIdentifier($movedNode->getIdentifier());
-                $node->setIndex($movedNode->getIndex());
+                if($node) {
+                    $node->setIndex($movedNode->getIndex());
+                }
             }
         }
     }
